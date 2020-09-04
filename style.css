@@ -1,0 +1,87 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+
+
+
+}
+.fullpage::-webkit-scrollbar {
+  display: none;
+}
+.filler{
+	height: 100vh;
+	background-color: #e0ba44
+}
+.filler1{
+  font-family: 'Raleway';
+  color: white;
+  font-size: 56px;
+  font-weight: bolder;
+  position: absolute;
+  top: 30%;
+  padding-left: 2%;
+  padding-right: 3%;
+}
+
+#abcde{
+	padding-top: 30px;
+	margin-left: 2%;
+
+}
+#left{
+	font-family: 'Raleway';
+ 	color: white;
+  	font-size: 18px;
+	text-align: left;
+	position: absolute;
+    top: 25%;
+    padding-left: 2%;
+    padding-right: 3%;
+    padding-top: 30%;
+}
+#right{
+  font-family: 'Raleway';
+  color: white;
+  font-size: 18px;
+  text-align: right;
+  position: absolute;
+  top: 25%;
+  padding-left: 70%;
+  padding-right: 3%;
+  padding-top: 30%;
+}
+.lappy{
+	height: 800px;
+	background: white;
+	position: absolute;
+	width: =55%;
+	height: =40%;
+    background-size: cover;
+    background-attachment: fixed;
+	margin-left: 0px;
+	margin-right: 0px;;
+}
+#lapt{
+	position: absolute;
+	padding-left: 31%;
+	padding-top: 13.5%;
+	padding-bottom:16%;
+
+}
+.video{
+	height: 700px;
+	padding-bottom: 46%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+video{
+	width: 1517px;
+	height: 1050px;
+	transition: all 1.5s;
+}
+video:hover{
+	transform: scale(0.215);
+	animation: 
+}
